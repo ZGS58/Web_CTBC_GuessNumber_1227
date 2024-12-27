@@ -33,7 +33,7 @@ document.querySelector("#ok").addEventListener("click", function () {
         currentHealth--; // 每次扣除半颗心
         renderHealthBar(); // 重新渲染血量条
         startButton.style.display = "flex";
-        // alert("血量已耗盡！");
+        tip.textContent = "你輸了!";
       }
     } else {
       tip.textContent = `請輸入 ${number} ~ ${max} 內的數字`;
@@ -45,7 +45,7 @@ document.querySelector("#ok").addEventListener("click", function () {
         currentHealth--; // 每次扣除半颗心
         renderHealthBar(); // 重新渲染血量条
         startButton.style.display = "flex";
-        // alert("血量已耗盡！");
+        tip.textContent = "你輸了!";
       }
     }
   }
