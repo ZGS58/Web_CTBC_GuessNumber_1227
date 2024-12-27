@@ -1,0 +1,66 @@
+@font-face {
+  font-family: "Cubic";
+  src: url(./Fonts/Cubic_11.ttf);
+}
+
+* {
+  font-family: "Cubic", 微軟正黑體;
+  margin: 0;
+  padding: 0;
+  color: #cdcdcd;
+  user-select: none;
+}
+body {
+  background-color: #252525;
+}
+header {
+  text-align: center;
+  padding: 30px;
+}
+
+h1 {
+  font-size: 70px;
+}
+
+.section1 {
+  text-align: center;
+}
+
+#number {
+  padding: 30px;
+  font-size: 36px;
+  color: #252525;
+  text-align: center;
+}
+
+button {
+  padding: 20px 80px;
+  margin-top: 20px;
+  color: #252525;
+  font-size: 24px;
+  cursor: pointer;
+}
+
+.tip {
+  padding: 50px 0;
+}
+#health-barText {
+    font-size: 25px;
+  display: flex;
+  align-items: center;
+}
+#health-bar {
+  display: flex;
+  gap: 5px;
+}
+.heart {
+  width: 32px;
+  height: 32px;
+  background-color: transparent;
+}
+
+.section2 {
+    display: flex; /* 使用 Flexbox */
+    justify-content: center; /* 水平置中 */
+    align-items: center; /* 垂直置中（可選） */
+  }
